@@ -19,7 +19,8 @@ chmod 400 .ssh/id_rsa
  
 
 # install java
-assumption: copy jdk-8u111-linux-x64.tar.gz to vagrant folder
+assumption: copy jdk-8u111-linux-x64.tar.gz(\\192.168.1.19\Development\Casino\Software\java\jdk-8u111-linux-x64.tar.gz) to vagrant folder
+
 sudo mkdir /usr/local/java
 sudo tar -xvf /vagrant/jdk-8u111-linux-x64.tar.gz -C /usr/local/java
 sudo ln -s /usr/local/java/jdk1.8.0_111/bin/java /usr/bin/java
