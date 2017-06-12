@@ -32,7 +32,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 5672, host: 5672
   # neo4j
   config.vm.network "forwarded_port", guest: 7474, host: 7474
-  
+  # oracle
+  config.vm.network "forwarded_port", guest: 1521, host: 1521
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
