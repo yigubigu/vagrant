@@ -57,11 +57,12 @@ Assumption (download https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.
 sudo mkdir /usr/local/nodejs
 sudo tar -xvf /vagrant/node-v6.11.0-linux-x64.tar.xz -C /usr/local/nodejs
 sudo ln -s /usr/local/nodejs/node-v6.11.0-linux-x64/bin/node /usr/bin/node
+sudo ln -s /usr/local/nodejs/node-v6.11.0-linux-x64/bin/npm /usr/bin/npm
 ````
 
 ## Install Nodejs Aliyun Mirror
 ````
-echo 'cnpm="npm --registry=https://registry.npm.taobao.org   --cache=$HOME/.npm/.cache/cnpm   --disturl=https://npm.taobao.org/dist   --userconfig=$HOME/.cnpmrc"' >>  ~/.zshrc && source ~/.zshrc
+echo 'alias cnpm="npm --registry=https://registry.npm.taobao.org   --cache=$HOME/.npm/.cache/cnpm   --disturl=https://npm.taobao.org/dist   --userconfig=$HOME/.cnpmrc"' >>  ~/.zshrc && source ~/.zshrc
 ````
 
 
