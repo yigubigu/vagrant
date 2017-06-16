@@ -6,3 +6,4 @@ sudo service docker restart
 # to support download compose offline, it maybe slow to download from github
 sudo cp /vagrant/docker-compose-install/docker-compose-Linux-x86_64 /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
+sudo usermod -a -G docker vagrant
