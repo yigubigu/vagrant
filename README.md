@@ -54,10 +54,10 @@ sudo ln -s /usr/local/maven/apache-maven-3.5.0/bin/mvn /usr/bin/mvn
 Assumption (download https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.xz and put to /vagrant)
 
 ````
-sudo mkdir /usr/local/nodejs
-sudo tar -xvf /vagrant/node-v6.11.0-linux-x64.tar.xz -C /usr/local/nodejs
-sudo ln -s /usr/local/nodejs/node-v6.11.0-linux-x64/bin/node /usr/bin/node
-sudo ln -s /usr/local/nodejs/node-v6.11.0-linux-x64/bin/npm /usr/bin/npm
+sudo mkdir /home/vagrant/nodejs
+sudo tar -xvf /vagrant/node-v6.11.0-linux-x64.tar.xz -C /home/vagrant/nodejs
+sudo ln -s /home/vagrant/nodejs/node-v6.11.0-linux-x64/bin/node /usr/bin/node
+sudo ln -s /home/vagrant/nodejs/node-v6.11.0-linux-x64/bin/npm /usr/bin/npm
 ````
 
 ## Install Nodejs Aliyun Mirror
