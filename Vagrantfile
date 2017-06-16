@@ -34,6 +34,8 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 7474, host: 7474
   # oracle
   config.vm.network "forwarded_port", guest: 1521, host: 1521
+  # memcached
+  config.vm.network "forwarded_port", guest: 11211, host: 11211
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
