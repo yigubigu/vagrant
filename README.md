@@ -5,6 +5,12 @@ cd /vagrant/script/
 ./aliyun-apt.sh
 ````
 
+# Docker Install 
+````
+cd /vagrant/script
+./install-docker.sh
+````
+
  
 # Private key to linux
 ## Copy key from Windows
