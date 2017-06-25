@@ -23,19 +23,19 @@ Vagrant.configure("2") do |config|
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
   # mongo
-  config.vm.network "forwarded_port", guest: 27017, host: 27017
+  # config.vm.network "forwarded_port", guest: 27017, host: 27017
   # redis
-  config.vm.network "forwarded_port", guest: 6379, host: 6379
+  # config.vm.network "forwarded_port", guest: 6379, host: 6379
   # mysql
-  config.vm.network "forwarded_port", guest: 3306, host: 3306
+  # config.vm.network "forwarded_port", guest: 3306, host: 3306
   # rabbitmq
-  config.vm.network "forwarded_port", guest: 5672, host: 5672
+  # config.vm.network "forwarded_port", guest: 5672, host: 5672
   # neo4j
-  config.vm.network "forwarded_port", guest: 7474, host: 7474
+  # config.vm.network "forwarded_port", guest: 7474, host: 7474
   # oracle
-  config.vm.network "forwarded_port", guest: 1521, host: 1521
+  # config.vm.network "forwarded_port", guest: 1521, host: 1521
   # memcached
-  config.vm.network "forwarded_port", guest: 11211, host: 11211
+  # config.vm.network "forwarded_port", guest: 11211, host: 11211
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -61,7 +61,7 @@ Vagrant.configure("2") do |config|
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-      vb.memory = "3048"
+      vb.memory = "1024"
   end
   #
   # View the documentation for the provider you are using for more
